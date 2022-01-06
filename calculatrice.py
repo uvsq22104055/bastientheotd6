@@ -37,7 +37,10 @@ bouton_0.grid(row=5, column=2)
 bouton_point = tk.Button(racine, text=".")
 bouton_point.grid(row=5, column=3)
 
-canvas=tk.Canvas(racine, width=100, height=100)
-canvas.grid(row=6, column=4, rowspan=1)
+bouton_plus=tk.Button(racine, text="+")
+bouton_plus.grid(row=2, column=4)
+
+canvas=tk.Canvas(racine, width=200, height=40, background='black')
+canvas.grid(row=1, column=1, columnspan=4)
 
 racine.mainloop()
