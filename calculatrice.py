@@ -8,7 +8,7 @@ resultat=0
 
 def bouton1():
     global resultat
-    
+
 
 bouton_1 = tk.Button(racine, text="1")
 bouton_1.grid(row=2, column=1)
@@ -56,8 +56,8 @@ bouton_divise=tk.Button(racine, text=":")
 bouton_divise.grid(row=5, column=4)
 
 
-canvas=tk.Label(text="1+2")
-canvas.grid(row=1, column=4, columnspan=4)
+label=tk.Label(text="1+2")
+label.grid(row=1, column=4, columnspan=4)
 
 
 racine.mainloop()
