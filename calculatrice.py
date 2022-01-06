@@ -2,7 +2,7 @@ import tkinter as tk
 
 
 racine = tk.Tk()
-racine.title("interface td5")
+racine.title("Calculatrice")
 
 bouton_1 = tk.Button(racine, text="1")
 bouton_1.grid(row=1, column=0)
@@ -33,3 +33,5 @@ bouton_9.grid(row=2, column=0)
 
 canvas=tk.Canvas(racine, width=500, height=600, background='black')
 canvas.grid(row=1, column=1, rowspan=3)
+
+racine.mainloop()
