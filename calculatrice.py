@@ -40,7 +40,14 @@ bouton_point.grid(row=5, column=3)
 bouton_plus=tk.Button(racine, text="+")
 bouton_plus.grid(row=2, column=4)
 
-bouton_multiple=tk.Button(racine, )
+bouton_multiple=tk.Button(racine, text="x")
+bouton_multiple.grid(row=3, column=4)
+
+bouton_moins=tk.Button(racine, text="-")
+bouton_moins.grid(row=4, column=4)
+
+bouton_divise=tk.Button(racine, text=":")
+bouton_divise.grid(row=5, column=4)
 
 canvas=tk.Canvas(racine, width=200, height=40, background='black')
 canvas.grid(row=1, column=1, columnspan=4)
