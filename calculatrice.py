@@ -2,7 +2,7 @@ import tkinter as tk
 
 
 racine = tk.Tk()
-racine.title("interface td5")
+racine.title("Calculatrice")
 
 bouton_1 = tk.Button(racine, text="1")
 bouton_1.grid(row=2, column=1)
