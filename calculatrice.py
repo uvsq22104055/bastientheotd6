@@ -30,3 +30,6 @@ bouton_8.grid(row=2, column=0)
 
 bouton_9 = tk.Button(racine, text="2", command=)
 bouton_9.grid(row=2, column=0)
+
+canvas=tk.Canvas(racine, width=500, height=600, background='black')
+canvas.grid(row=1, column=1, rowspan=3)
