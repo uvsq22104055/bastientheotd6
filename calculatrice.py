@@ -4,17 +4,29 @@ import tkinter as tk
 racine = tk.Tk()
 racine.title("interface td5")
 
-bouton_cercle = tk.Button(racine, text="cercle", command=dessiner_cercle)
-bouton_cercle.grid(row=1, column=0)
+bouton_1 = tk.Button(racine, text="1", command=)
+bouton_1.grid(row=1, column=0)
 
-bouton_carre = tk.Button(racine, text="carré", command=dessiner_carre)
-bouton_carre.grid(row=2, column=0)
+bouton_2 = tk.Button(racine, text="2", command=)
+bouton_2.grid(row=2, column=0)
 
-bouton_croix = tk.Button(racine, text="croix", command=dessiner_croix)
-bouton_croix.grid(row=3, column=0)
+bouton_3 = tk.Button(racine, text="3", command=)
+bouton_3.grid(row=2, column=0)
 
-bouton_couleur = tk.Button(racine, text="choisir couleur" , command=choix_couleur)
-bouton_couleur.grid(row=0, column=1)
+bouton_4 = tk.Button(racine, text="2", command=)
+bouton_4.grid(row=2, column=0)
 
-bouton_undo = tk.Button(racine, text="undo" , command=undo)
-bouton_undo.grid(row=0, column=0)
+bouton_5 = tk.Button(racine, text="2", command=)
+bouton_5.grid(row=2, column=0)
+
+bouton_6 = tk.Button(racine, text="2", command=)
+bouton_6.grid(row=2, column=0)
+
+bouton_7 = tk.Button(racine, text="2", command=)
+bouton_7.grid(row=2, column=0)
+
+bouton_8 = tk.Button(racine, text="2", command=)
+bouton_8.grid(row=2, column=0)
+
+bouton_9 = tk.Button(racine, text="2", command=)
+bouton_9.grid(row=2, column=0)
